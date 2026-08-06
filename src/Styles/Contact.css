@@ -1,0 +1,138 @@
+.contact{
+  display: flex;
+  background-color: rgb(37, 37, 37);
+  border-radius: 20px;
+  padding: 70px 60px 80px;
+  margin: 200px 200px;
+  gap: 70px;
+}
+
+.text{
+  font-size: 13px;
+  color: rgba(232, 81, 35, 0.9);
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.discription{
+  font-size: 15px;
+  color: rgb(179, 176, 176);
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.email,
+.linkdin,
+.github {
+  display: block;
+  color: rgb(179, 176, 176);
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.email:hover,
+.linkdin:hover,
+.github:hover {
+  color: white;
+}
+
+.message {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  gap: 15px;
+}
+
+.message label {
+  color: rgb(179, 176, 176);
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  width: 500px;
+}
+
+.name-email-row {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.name-email-row .field-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+}
+
+.inp-sub {
+  width: 100%;
+}
+
+.message input,
+.message textarea {
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  border: 1px solid #777777;
+  border-radius: 8px;
+  padding: 12px;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin: 6px 0 20px;
+  box-sizing: border-box;
+}
+
+.message input:focus,
+.message textarea:focus {
+  border-color: rgba(232, 81, 35, 0.9);
+}
+
+.message textarea {
+  height: 120px;
+  width: 100%;
+  resize: vertical;
+}
+
+.message button {
+  background-color: rgb(255, 111, 0);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.message button:hover {
+  background-color: rgb(241, 118, 10);
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-info {
+    margin-top: 20px;
+  }
+}
