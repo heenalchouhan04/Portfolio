@@ -10,7 +10,7 @@ function Blog() {
 
       <div className='blog-cards'>
         <div className='blog-card'>
-          <img src='' alt='design' />
+          <img src='https://png.pngtree.com/thumb_back/fh260/background/20241112/pngtree-a-close-up-of-the-screen-on-an-open-laptop-displaying-image_16553336.jpg' alt='design' />
           <div className='card-body'>
             <div className='span-tags'>
               <span className='tag'>Design</span>
@@ -23,7 +23,7 @@ function Blog() {
         </div>
 
         <div className='blog-card'>
-          <img src='' alt='dev' />
+          <img src='https://img.magnific.com/free-photo/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus_1418-704.jpg' alt='dev' />
           <div className='card-body'>
             <div className='span-tags'>
               <span className='tag'>Dev</span>
@@ -36,7 +36,7 @@ function Blog() {
         </div>
 
         <div className='blog-card'>
-          <img src='' alt='freelance' />
+          <img src='https://images.pexels.com/photos/34804000/pexels-photo-34804000.jpeg?cs=srgb&dl=pexels-dkomov-34804000.jpg&fm=jpg' alt='freelance' />
           <div className='card-body'>
             <div className='span-tags'>
               <span className='tag'>Freelance</span>
