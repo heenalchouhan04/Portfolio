@@ -6,7 +6,7 @@ function Header() {
     <header className="site-header" id="header">
       <nav className="nav-bar">
         <a href="#home" className="brand">
-          eli<span className='ott'>ott</span>
+          Hee<span className='ott'>nal</span>
         </a>
 
       <div className="app-container">
