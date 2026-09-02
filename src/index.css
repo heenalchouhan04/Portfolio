@@ -96,7 +96,89 @@ body::before {
 /* Skill tag */
 .stag { transition: border-color 0.18s; }
 
-/* Dark mode */
+/* ─── Dark mode (default look, .dark on <html>) ─────── */
 .dark body { background-color: #09090b; color: #f4f4f5; }
+
+/* ─── Light mode overrides (no .dark class) ─────────── */
+html:not(.dark) body {
+  background-color: #f8f8f8;
+  color: #111111;
+}
+
+/* Header */
+html:not(.dark) .site-header { background-color: #ffffff; border-bottom: 1px solid #e5e5e5; }
+html:not(.dark) .brand { color: #111111; }
+html:not(.dark) .app-container .nav-link { color: #555555; }
+html:not(.dark) .app-container .nav-link:hover { color: #111111; }
+html:not(.dark) .theme-toggle { border-color: rgba(0,0,0,0.2); color: #555; }
+html:not(.dark) .theme-toggle:hover { background: rgba(0,0,0,0.06); border-color: rgba(0,0,0,0.4); }
+
+/* Hero */
+html:not(.dark) .hero { background-color: #ffffff; color: #111111; }
+html:not(.dark) .hero-title { color: #111111; }
+html:not(.dark) .hero-work { color: #444444; }
+html:not(.dark) .hero-work .white { color: #111111; }
+html:not(.dark) .description { color: #555555; }
+html:not(.dark) .stats span { color: #111111; }
+html:not(.dark) .stats div { color: #555555; }
+html:not(.dark) .hero-btn { background-color: #111111; color: #ffffff; }
+html:not(.dark) .hero-btn:hover { background-color: #333333; }
+html:not(.dark) .hero-btn-2 { border-color: #aaaaaa; color: #111111; }
+html:not(.dark) .hero-btn-2:hover { background-color: #eeeeee; }
+
+/* Services */
+html:not(.dark) .service { background-color: #f8f8f8; color: #111111; }
+html:not(.dark) .service-title { color: #111111; }
+html:not(.dark) .card-1, html:not(.dark) .card-3 {
+  background-color: #ffffff;
+  border-color: #e0e0e0;
+}
+html:not(.dark) .card-2 { background-color: #eeeeee; }
+html:not(.dark) .card-1-description, html:not(.dark) .card-2-description,
+html:not(.dark) .card-3-description { color: #555555; }
+
+/* About */
+html:not(.dark) .about { background-color: #ffffff; }
+html:not(.dark) .about-title { color: #111111; }
+html:not(.dark) .about-body { color: #555555; }
+html:not(.dark) .stack-tags span { background: #f0f0f0; color: #111111; border-color: #cccccc; }
+
+/* Reviews */
+html:not(.dark) .reviews { background-color: #f8f8f8; color: #111111; }
+html:not(.dark) .reviews-title { color: #111111; }
+html:not(.dark) .review-card-1, html:not(.dark) .review-card-3 {
+  background-color: #ffffff;
+  border-color: #e0e0e0;
+}
+html:not(.dark) .review-card-2 { background-color: #eeeeee; }
+html:not(.dark) .review-card-1-description,
+html:not(.dark) .review-card-2-description,
+html:not(.dark) .review-card-3-description { color: #555555; }
+
+/* Blog */
+html:not(.dark) .blog { background: #ffffff; color: #111111; }
+html:not(.dark) .blog-title { color: #111111; }
+html:not(.dark) .blog-card { background: #f2f2f2; }
+html:not(.dark) .info { color: #111111; }
+html:not(.dark) .info-description { color: #555555; }
+html:not(.dark) .read-more { color: #111111; }
+html:not(.dark) .span-tags .tag { background: #e8e8e8; }
+html:not(.dark) .span-tags .date { color: #777777; }
+
+/* Contact */
+html:not(.dark) .contact { background-color: #eeeeee; }
+html:not(.dark) .title { color: #111111; }
+html:not(.dark) .discription { color: #444444; }
+html:not(.dark) .email, html:not(.dark) .linkdin, html:not(.dark) .github { color: #444444; }
+html:not(.dark) .email:hover, html:not(.dark) .linkdin:hover, html:not(.dark) .github:hover { color: #111111; }
+html:not(.dark) .message input, html:not(.dark) .message textarea {
+  background-color: #ffffff;
+  border-color: #cccccc;
+  color: #111111;
+}
+html:not(.dark) .message label { color: #444444; }
+
+/* Footer */
+html:not(.dark) .footer { color: #555555; }
 
 #root { width: 100%; min-height: 100vh; }

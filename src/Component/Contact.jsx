@@ -7,11 +7,11 @@ function Contact() {
       <div className="contact-container">
         <p className="text">GET IN TOUCH</p>
         <p className="title">Let’s work together</p>
-        <p className="discription">I'm open to UI/UX and frontend missions, short or long-term. 
-           Landing page, full product redesign, or just a second pair of eyes — let's talk.</p>
-        <a className="email" href="mailto:hello@eliott.com">hello@eliott.com</a><br/>
-        <a className="linkdin" href="linkdin.com/in/eliott-dev"> linkdin.com/in/eliott-dev</a><br/>
-        <a className="github" href="github.com/eliott-dev"> github.com/eliott-dev</a>
+        <p className="discription">I'm open to UI/UX and frontend missions, short or long-term.
+          Landing page, full product redesign, or just a second pair of eyes — let's talk.</p>
+        <a className="email" href="mailto:[EMAIL_ADDRESS]">heenalchauhan06@gmail.com</a><br />
+        <a className="linkdin" href="https://linkedin.com/in/heenal"> linkedin.com/in/heenal</a><br />
+        <a className="github" href="https://github.com/heenalchouhan04"> github.com/heenalchouhan04</a>
       </div>
       <form className="message">
         <div className="name-email-row">
@@ -25,11 +25,11 @@ function Contact() {
           </div>
         </div>
 
-        <label className="subject">Subject</label><br/>
-        <input type="text" placeholder="Project inquiry" className="inp-sub" /><br/>
+        <label className="subject">Subject</label><br />
+        <input type="text" placeholder="Project inquiry" className="inp-sub" /><br />
 
-        <label className="messageLabel">Message*</label><br/>
-        <textarea placeholder="Tell me about your project..."></textarea><br/>
+        <label className="messageLabel">Message*</label><br />
+        <textarea placeholder="Tell me about your project..."></textarea><br />
 
 
         <button type="submit">Send Message →</button>

@@ -20,7 +20,7 @@ function About() {
           <h2 className="about-title">A bit about<br />who I am</h2>
 
           <p className="about-body">
-            I'm Eliott, a freelance designer and frontend developer based in Paris with
+            I'm Heenal, a freelance designer and frontend developer based in Paris with
             5 years of experience shipping digital products for startups, agencies, and
             scale-ups across Europe. I thrive at the intersection of great design and
             clean code.
